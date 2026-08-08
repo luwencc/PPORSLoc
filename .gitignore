@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.pth
+*.pt
+*.npy
+*.npz
+*.mmap
+Test_picture_*/
+*.png
+*.csv
+!requirements.txt
+.DS_Store
+_refactor*.py
+_translate*.py
+*.bak
+
+# Large datasets — publish via GitHub Releases, not git
+# Keep Data/README.md tracked; ignore archive binaries in this folder.
+data/*
+Data/*
+!data/README.md
+!Data/README.md
+*.tar
+*.tar.gz
+*.tar.xz
+*.zip
+*.7z
+*.rar
